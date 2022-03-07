@@ -1,7 +1,6 @@
 <template>
-<div class="grid grid-rows-3">
 <div class="bg-white">
-  <div class="max-w-2xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl">
+  <div class="max-w-2xl py-16 sm:py-24 lg:max-w-7xl">
     <h2 class="text-xl font-bold text-gray-900">NFT List</h2>
 
     <div class="grid grid-cols-1 gap-y-12 sm:grid-cols-2 sm:gap-x-6 lg:grid-cols-4 xl:gap-x-8">
@@ -21,15 +20,15 @@
           </div>
         </div>
         <div class="mt-6 flex justify-center">
+          <a :href="nft_assets.permalink">
             <ButtonBlack txt="Show on Open Sea" />
+          </a>
         </div>
       </div>
     </div>
 
     </div>
   </div>
-</div>
-
   </div>
 </template>
 
